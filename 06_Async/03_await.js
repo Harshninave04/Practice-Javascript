@@ -18,4 +18,4 @@ console.log(2)
 // 2
 // Hello World
 
-// Notice that the console prints 2 before the the "Hello world". this is due to the usage of the await keyword
+// Notice that the console prints 2 before the the "Hello world". this is due to the usage of the await keywordN
