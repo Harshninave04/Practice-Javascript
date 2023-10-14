@@ -65,3 +65,10 @@ function getArray(Array) {
     return Array[3];
 }
 console.log((getArray(myNewArray)))
+
+// Arrow functions with return value
+
+const subtracts = (num1, num2) => {
+    return num1 - num2;
+}
+console.log(subtracts(5,3))
