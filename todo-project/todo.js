@@ -2,6 +2,7 @@ let element = document.createElement("li");
 element.innerHTML = "Item 2";
 document.body.appendChild(element);
 element.style.fontSize = "30px";
+element.style.listStyle = "none";
 
 // let lielement = document.querySelector(".items");
 // lielement.append(element);
