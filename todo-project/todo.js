@@ -1,8 +1,8 @@
-let element = document.createElement("li");
-element.innerHTML = "Item 2";
-document.body.appendChild(element);
-element.style.fontSize = "30px";
-element.style.listStyle = "none";
+// let element = document.createElement("li");
+// element.innerHTML = "Item 2";
+// document.body.appendChild(element);
+// element.style.fontSize = "30px";
+// element.style.listStyle = "none";
 
 // let lielement = document.querySelector(".items");
 // lielement.append(element);
@@ -20,13 +20,20 @@ element.style.listStyle = "none";
 // document.body.appendChild(button);
 // button.style.background = "yellow";
 // button.style.padding = "10px";
-let itemcount = 3;
+
+// let itemcount = 1;
+// const btn = document.querySelector(".mytextbtn");
+// btn.addEventListener("click", () => {
+//   element = document.createElement("li");
+//   element.innerHTML = "Item " + itemcount++;
+//   document.body.appendChild(element);
+//   element.style.fontSize = "30px";
+// });
+
+document.querySelector("title").textContent = "Apna TODO list";
+
 const btn = document.querySelector(".mytextbtn");
 btn.addEventListener("click", () => {
-  element = document.createElement("li");
-  element.innerHTML = "Item " + itemcount++;
-  document.body.appendChild(element);
-  element.style.fontSize = "30px";
+  var inputvalue = document.querySelector(".mytext").value;
+  document.querySelector(".outputValue").innerHTML += inputvalue + "<br>";
 });
-
-document.querySelector("title").textContent = "My New Title";

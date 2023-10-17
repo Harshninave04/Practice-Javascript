@@ -49,9 +49,16 @@
         padding: 10px;
       }
       .mytextbtn {
-        width: 100px;
-        height: 40px;
+        width: 50px;
+        height: 45px;
         padding: 10px;
+        font-size: 20px;
+      }
+
+      .outputValue {
+        width: 25%;
+        text-align: start;
+        margin: 10px auto;
       }
     </style>
   </head>
@@ -60,10 +67,10 @@
       <h2>My Todo List</h2>
       <div class="section">
         <input class="mytext" type="text" placeholder="Add list..." />
-        <button class="mytextbtn">Press me</button>
+        <button class="mytextbtn">+</button>
       </div>
       <!-- <li class="item">Item 1</li> -->
-      <li>Item 1</li>
+      <li class="outputValue"></li>
     </div>
 
     <script src="todo.js"></script>
