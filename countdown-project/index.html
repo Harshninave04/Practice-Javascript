@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown-Project</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        padding: auto;
+      }
+      h3 {
+        font-size: 25px;
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .count-days,
+      .count-hours,
+      .count-minutes,
+      .count-seconds {
+        margin: 40px;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        gap: 10px;
+        padding: 5%;
+      }
+      .countdown{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .illustrator{
+        width: 420px;
+        height:420px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <h1>Countdown till my BirthDay</h1>
+      <div class="countdown">
+        <div class="count-days">
+          <h3 class="days">00</h3>
+          <h3>Days</h3>
+        </div>
+        <div class="count-hours">
+          <h3 class="hours">00</h3>
+          <h3>Hours</h3>
+        </div>
+        <div class="count-minutes">
+          <h3 class="minutes">00</h3>
+          <h3>Minutes</h3>
+        </div>
+        <div class="count-seconds">
+          <h3 class="seconds">00</h3>
+          <h3>Seconds</h3>
+        </div>
+      </div>
+
+      <img class="illustrator" src="example_svg.png" alt="png file" />
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
