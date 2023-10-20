@@ -37,3 +37,9 @@ btn.addEventListener("click", () => {
   var inputvalue = document.querySelector(".mytext").value;
   document.querySelector(".outputValue").innerHTML += inputvalue + "<br>";
 });
+
+const remBtn = document.querySelector(".myremovebtn");
+remBtn.addEventListener("click", () => {
+  var remElement = document.querySelector(".outputValue");
+  remElement.lastChild.remove();
+});
