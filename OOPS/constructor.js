@@ -10,3 +10,6 @@ const person3 = new person("Harsh", "Meshram", "19-8-2003");
 console.log(person1);
 console.log(person2);
 console.log(person3);
+console.log(person1.firstName);
+console.log(person1.lastName);
+console.log(person1.dob);
