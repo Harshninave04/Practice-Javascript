@@ -51,15 +51,42 @@ h1{
 }
 
 ul{
-    width: 54%;
+    width: 51.59%;
     height: 90%;
-    margin: auto;
-    margin-left: 25px;
+    /* margin: auto; */
+    margin-left: 15px;
     display: flex;
     align-items: flex-start;
     /* border: 1px solid black; */
     list-style: none;
-    font-size: 60px;
-    gap: 47px;
+    font-size: 40px;
+    gap: 40px;
     flex-wrap: wrap;
+}
+
+.operators{
+    width: 35%;
+    height: 90%;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 35px;
+    /* border: 1px solid black; */
+}
+
+.elements{
+    border: 2px solid black;
+    padding: 1px;
+    width: 50px;
+    height: 55px;
+    text-align: center;
+    background-color: rgba(254, 254, 53, 0.12);
+}
+.elements-op{
+    border: 2px solid black;
+    padding: 1px;
+    width: 53px;
+    height: 55px;
+    background-color: rgba(27, 27, 222, 0.374);
+    text-align: center;
+    margin: 0 auto;
 }
