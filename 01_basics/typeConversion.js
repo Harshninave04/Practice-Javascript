@@ -13,3 +13,11 @@ let number = 50;
 number = String(number);
 console.log(number);
 console.log(typeof number);
+
+
+// to convert a number into float
+
+let floating = "23.354";
+floating = parseFloat(floating);
+console.log(floating)
+console.log(typeof floating)
