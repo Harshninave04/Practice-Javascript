@@ -71,4 +71,39 @@ console.log((getArray(myNewArray)))
 const subtracts = (num1, num2) => {
     return num1 - num2;
 }
-console.log(subtracts(5,3))
+console.log(subtracts(5, 3));
+
+// Function Expression
+
+const clgName = function (clg) {
+  //   console.log("JD colllege of Engineering!");
+  console.log(`Hello ${clg}`);
+};
+// You've to call every function expression underneath of function declaration
+clgName("JD");
+clgName("Raisoni");
+clgName("YCCE");
+clgName("VNIT");
+clgName("RamdeoBaba");
+
+// Callback function-> When we provide function as an argument to other function that function is known as callback function
+// Example 1
+function someFun(name, fn) {
+  console.log(`Hello ${name}`);
+  fn(10);
+}
+
+//Callback function
+someFun("Harsh", function (value) {
+  console.log("Callback Function.");
+  console.log(value);
+});
+
+// Example 2
+function greeting(name, cb) {
+  console.log(`Hello ${name}`);
+  cb();
+}
+greeting("Harsh", function () {
+  console.log("Callback function");
+});
