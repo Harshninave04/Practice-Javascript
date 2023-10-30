@@ -1,0 +1,12 @@
+{
+  "name": "Harsh",
+  "age": 19,
+  "isStudent": true,
+  "height": 5.5,
+  "weightInKG": 45,
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "zipCode": "12345"
+  }
+}
