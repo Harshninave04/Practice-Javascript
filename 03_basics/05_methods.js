@@ -1,3 +1,5 @@
+//Methods-> Methods are functions that are associated with objects in programming. They define the behavior or actions that can be performed on those objects
+
 const person = {
   name: "Harsh",
   age: 19,
