@@ -61,6 +61,8 @@ function user(name,age,sex,education,email) {
   }
 };
 const harsh = user("Harsh Ninave", 19, "Male", "Btech Engineering", "harshninave58@gmail.com");
-const nandini = user("Nandini",17,"Female","Computer Science","nandinininave17@gmail.com")
+const nandini = user("Nandini", 17, "Female", "Computer Science", "nandinininave17@gmail.com");
+const mummy = user("Ratna Ninave", 39, "Female", "House Wife", "ratnaninave39@gmail.com");
 console.log(harsh);
-console.log(nandini)
+console.log(nandini);
+console.log(mummy);
