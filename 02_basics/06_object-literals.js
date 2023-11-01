@@ -47,3 +47,20 @@ console.log(routine[1].id);
 const routineJSON = JSON.stringify(routine);
 console.log(routineJSON);
 
+
+
+// Enhanced Object Literals - It is introduced in ECMAscript 6, are a set of enhancements to the syntax for defining objects in JavaScript. This enhancement make it more convenient and concise to define object properties and methods
+console.log("Enhanced Object Literals")
+function user(name,age,sex,education,email) {
+  return {
+    "name": name,
+    "age": age,
+    "sex": sex,
+    "education": education,
+    "email": email
+  }
+};
+const harsh = user("Harsh Ninave", 19, "Male", "Btech Engineering", "harshninave58@gmail.com");
+const nandini = user("Nandini",17,"Female","Computer Science","nandinininave17@gmail.com")
+console.log(harsh);
+console.log(nandini)
