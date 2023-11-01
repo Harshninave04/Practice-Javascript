@@ -55,3 +55,9 @@ divNum = (d) => {
 console.log(`Multiplication of two argument is ${multiplyNum(2, 2)}`);
 
 divNum("division");
+
+const subtraction = (n) => n - 2;
+console.log(subtraction(84));
+
+let mod = (n) => n % 2 == 0;
+console.log(mod(2));
