@@ -107,3 +107,23 @@ function greeting(name, cb) {
 greeting("Harsh", function () {
   console.log("Callback function");
 });
+
+
+
+// Default Function Parameters - The default parameters in javascript are used for providing the default values to the function parameter in javascript when no values are provided
+
+
+const count = (count = true) => {
+    if (count == true) {
+        for (let i = 0; i <= 5; i++){
+            console.log(`Count: ${i}`);
+        }
+    }
+}
+
+console.log(count());
+// In this function b=2 is default argument, when no argument is passed during function call b=2 will execute as default
+function multiply(a, b = 2) { return a * b };
+console.log(multiply(2));
+console.log(multiply(10, 3))
+console.log(multiply(9))
