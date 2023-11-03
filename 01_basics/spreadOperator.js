@@ -15,3 +15,22 @@ const obj = { ...obj1, ...obj2 };
 // console.log(obj);
 const OBJ = { ...obj1, ...obj2, r: 5, s: 6 };
 console.log(OBJ);
+
+
+
+// Rest Operator - The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript
+
+// Rest operator and spread operator are kind of similar but in rest operator it takes unlimited amount of arguments
+
+function user(...userData) {
+    console.log(userData);
+}
+user("Harsh", 19, "Software Engineer", "India", "Nagpur");
+
+function person(firstname, lastname, ...data) {
+    console.log(firstname);
+    console.log(lastname);
+    console.log(data)
+}
+
+person("Harsh","Ninave",19,"India","JD College of Engineering","Software Engineer")
