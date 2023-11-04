@@ -20,8 +20,6 @@ for (let i = 0; i < naav.length; i++) {
     console.log(`Kucch youtuber ke naam ${naav[i]}`)
 }
 
-
-
 let routine = [
   {
     id: 1,
@@ -50,3 +48,11 @@ for (let rotine of routine) {
 for (let rotine of routine) {
   console.log(rotine.email);
 }
+
+console.log("===================================");
+
+let peoples = ["Harsh", "Dev", "Anjali", "Pravinya", "Aditya", "Girish"];
+for (let people of peoples) {
+  console.log(`${people}`);
+}
+console.log(`${peoples}`);
