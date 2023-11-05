@@ -13,3 +13,11 @@ let double = arr.map((num) => {
   return num * 5;
 });
 console.log(double);
+
+let newArr = [23, 52, 32, 53, 15];
+function operation(num) {
+  return num * 5;
+}
+
+const operations = newArr.map(operation);
+console.log(operations);
