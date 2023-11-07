@@ -5,7 +5,9 @@
 let songs = [
   { name: "One Love", singer: "Shubh", duration: 3.43 },
   { name: "Khatta flow", singer: "Seedhe Maut", duration: 2.33 },
+  { name: "Cheques", singer: "Shubh", duration: 3.13 },
   { name: "Hola Amigo", singer: "Kr$na", duration: 4.0 },
+  { name: "Baller", singer: "Shubh", duration: 2.49 },
   { name: "Wet dreamz", singer: "J. Cole", duration: 5.5 },
 ];
 
@@ -18,3 +20,5 @@ console.log("+++++++++++++++++++++++++++++++++++++++");
 console.log(songs.filter((song) => song.duration > 3));
 console.log("+++++++++++++++++++++++++++++++++++++++");
 console.log(songs.filter((song) => song.duration > 2));
+console.log("+++++++++++++++++++++++++++++++++++++++");
+console.log(songs.filter((song) => song.singer == "Shubh"));
