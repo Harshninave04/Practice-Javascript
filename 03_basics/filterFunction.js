@@ -22,3 +22,14 @@ console.log("+++++++++++++++++++++++++++++++++++++++");
 console.log(songs.filter((song) => song.duration > 2));
 console.log("+++++++++++++++++++++++++++++++++++++++");
 console.log(songs.filter((song) => song.singer == "Shubh"));
+
+
+
+
+console.log("+++++++++++++++++++++++++++++++++++++++");
+// Every() and Some() method -
+
+let forEvery = songs.every((song) => song.singer == "Shubh");
+let forSome = songs.some((song) => song.singer == "Shubh");
+console.log(forEvery);
+console.log(forSome);
