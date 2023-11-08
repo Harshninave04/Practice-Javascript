@@ -27,7 +27,7 @@ console.log(songs.filter((song) => song.singer == "Shubh"));
 
 
 console.log("+++++++++++++++++++++++++++++++++++++++");
-// Every() and Some() method -
+// Every() and Some() method - Every() method are used to find out the element present in the array or not . Some() method checks one of the element which satisfies the condition present in the array or not, If the condition is true then it passes the boolean value true else false !
 
 let forEvery = songs.every((song) => song.singer == "Shubh");
 let forSome = songs.some((song) => song.singer == "Shubh");
