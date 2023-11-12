@@ -13,4 +13,15 @@ console.log(a[1].href);
 console.log(a[2].href);
 
 const input = document.querySelector("input");
+input.placeholder = "Provide some text over here";
 console.log(input.value);
+console.log(input.getAttribute("type"));
+console.log(input.getAttribute("placeholder")); // getAttribute
+
+//setAttribute("attributeName","value")
+input.setAttribute("value", "harshninave58@gmail.com");
+input.setAttribute("type", "password");
+
+const ytAnchor = document.getElementsByClassName("youtube");
+ytAnchor.href = "https://www.youtube.com/@huxnwebdev";
+console.log(ytAnchor.href);
