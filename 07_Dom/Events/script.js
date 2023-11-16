@@ -31,3 +31,13 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
   console.log(input.value)
 })
+
+// Mouse Events
+const one = document.querySelector(".click");
+one.addEventListener("click", () => {
+  one.classList.toggle("red");
+});
+const contextmenu = document.querySelector(".contextmenu");
+contextmenu.addEventListener("contextmenu", () => {
+  contextmenu.classList.toggle("blue");
+});
