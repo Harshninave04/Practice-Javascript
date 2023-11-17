@@ -52,3 +52,14 @@ const mouseover = document.querySelector(".mseover");
 mouseover.addEventListener("mouseover", () => {
   mouseover.classList.toggle("orange");
 });
+
+
+// Keyboard Events
+
+const keyboard = document.querySelector(".keyb");
+keyboard.addEventListener("keypress", (e) => {
+  // console.log(e.charCode)
+  // console.log(e.code)
+  // console.log(e.ctrlKey)
+  console.log(e.key);
+})
