@@ -37,7 +37,18 @@ const one = document.querySelector(".click");
 one.addEventListener("click", () => {
   one.classList.toggle("red");
 });
+
 const contextmenu = document.querySelector(".contextmenu");
 contextmenu.addEventListener("contextmenu", () => {
   contextmenu.classList.toggle("blue");
+});
+
+const dbclick = document.querySelector(".dbclick");
+dbclick.addEventListener("dblclick", () => {
+  dbclick.classList.toggle("teal");
+});
+
+const mouseover = document.querySelector(".mseover");
+mouseover.addEventListener("mouseover", () => {
+  mouseover.classList.toggle("orange");
 });
