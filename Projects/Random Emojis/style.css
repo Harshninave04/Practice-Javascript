@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ccc;
+}
+
+#emoji{
+    font-size: 10rem;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition-property: transform, filter;
+    transition-duration: 200ms;
+}
+
+#emoji:hover{
+    transform: scale(2,2);
+    filter: grayscale(0);
+}
