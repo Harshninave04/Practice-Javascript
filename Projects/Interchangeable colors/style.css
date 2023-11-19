@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{   
+    background-color: rgb(51, 48, 48); 
+}
+
+.content-container{    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.purple{
+    background-color: rgb(226, 71, 226);
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.purple:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.blue:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.red{
+    background-color: red;
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.red:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.green{
+    background-color: green;
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.green:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.yellow{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    cursor: pointer;
+}
+.yellow:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.teal{
+    background-color: teal;
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.teal:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.orange{
+    background-color: orange;
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.orange:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
