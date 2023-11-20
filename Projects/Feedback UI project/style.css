@@ -30,13 +30,13 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 500px;
+    width: 666px;
 }
 
 .panel-container strong{
     line-height: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .ratings-container{
