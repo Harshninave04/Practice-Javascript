@@ -18,7 +18,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 90%;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 30px;
     width: 700px;
     color: white;
@@ -40,7 +40,7 @@ body{
 }
 
 .ratings-container{
-    display: flex;
+    /* display: flex; */
     margin: 20px 0;
 }
 
@@ -53,10 +53,11 @@ body{
 
 .rating:hover,
 .rating:active{
-    border-radius: 4px;
+    border-radius: 18px;
     background: #ccc;
     transition: 1s ease;
     color: black;
+    transform: scale(0.9);
 }
 
 .icon{
