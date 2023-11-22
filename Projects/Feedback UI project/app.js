@@ -13,7 +13,7 @@ ratingContainer.addEventListener("click", (e) => {
   if (e.target.parentNode.classList.contains("rating")) {
     // console.log(e.target.parentNode.classList.contains("rating"));
 
-    removeActive();
+    // removeActive();
     e.target.parentNode.classList.add("active");
     selectedRating = e.target.nextElementSibling.innerHTML;
   }
@@ -29,8 +29,8 @@ sendBtn.addEventListener("click", () => {
     `;
 });
 
-function removeActive() {
-  for (let i = 0; i < rating.length; i++) {
-    rating[i].classList.remove("active");
-  }
-}
+// function removeActive() {
+//   for (let i = 0; i < rating.length; i++) {
+//     rating[i].classList.remove("active");
+//   }
+// }
