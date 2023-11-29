@@ -7,7 +7,9 @@ const year = document.getElementById("year");
 
 const date = new Date();
 
-// const month = date.getMonth();
+const month = date.getMonth();
+// en -> English
+// long indicates the character string value
 monthEl.innerHTML = date.toLocaleDateString("en", {
   month: "long", // This line used to show the month Name ,ex: January,February,etc.
 });
