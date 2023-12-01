@@ -9,4 +9,51 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: rgb(4,4,19);
 }
+
+#searchBox{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#input{
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#searchBtn{
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    background: crimson;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.content-container{
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+/* JavaScript Highlight */
+
+mark{
+    background: rgb(217, 220, 20);
+}
+
+
