@@ -32,7 +32,7 @@ body{
 
 #searchBtn{
     padding: 10px 20px;
-    margin-left: 20px;
+    margin-left: 36px;
     border: none;
     background: crimson;
     font-size: 20px;
@@ -41,13 +41,17 @@ body{
 }
 
 .content-container{
-    width: 90%;
+    width: 95%;
+    height: 400px;
     color: white;
     font-size: 20px;
     padding-top: 20px;
     text-align: justify;
     max-width: 700px;
     margin-top: 20px;
+    line-height: 30px;
+    border: 2px solid crimson;
+    padding: 23px;
 }
 
 /* JavaScript Highlight */
